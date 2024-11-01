@@ -1,0 +1,14 @@
+# Ignore yaml files with API tokens
+*.yaml
+.yaml
+
+config.yaml
+
+*.csv
+.csv
+
+*.xls
+.xls
+
+*.xlsx
+.xlsx
