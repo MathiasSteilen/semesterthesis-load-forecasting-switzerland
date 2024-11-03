@@ -4,8 +4,12 @@
 
 config.yaml
 
-*.csv
-.csv
+# specific files
+weather_data*.csv
+df_final.csv
+load.csv
+weather.csv
+
 
 *.xls
 .xls
