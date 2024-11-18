@@ -16,3 +16,6 @@ weather.csv
 
 *.xlsx
 .xlsx
+
+# directories with tensorboard files
+2_code/lightning_logs/
