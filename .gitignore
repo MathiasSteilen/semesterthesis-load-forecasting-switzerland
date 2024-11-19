@@ -19,3 +19,4 @@ weather.csv
 
 # directories with tensorboard files
 2_code/lightning_logs/
+2_code/logs
