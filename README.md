@@ -3,7 +3,7 @@
 <img src="1_figures/holdout_preds_good_week.png" style="width: 600px; height: auto;">
 <br>
 
-[**Link to Full Semester Paper (PDF)**](https://github.com/MathiasSteilen/semesterthesis-load-forecasting-switzerland/blob/main/Thesis.pdf)
+[**Link to Full Semester Paper (PDF)**](https://github.com/MathiasSteilen/semesterthesis-load-forecasting-switzerland/blob/main/Thesis.pdf)  
 [**Link to Full Semester Paper (HTML - Blog Post on my Website)**](https://mathiassteilen.github.io/posts/20250214-Load-Forecasting/#the-balance-group-managers-perspective)
 
 This repository contains the contents of my semester project of comparing traditional time series modelling with state-of-the-art deep learning modelling for load forecasting in the Swiss power grid. Major things covered here are:
