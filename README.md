@@ -1,12 +1,11 @@
 # A Comparative Study of Traditional Statistical Models and Deep Learning for Load Forecasting: SARIMAX vs. NBEATSx in the Swiss Power Grid
 
 <div style="display: flex; justify-content: center; gap: 10px;">
-  <!-- <img src="1_figures/heatmap_yearday_hour.png" style="width: auto; height: 200;"> -->
-  <img src="1_figures/holdout_preds_good_week.png" style="width: auto; height: 400px;">
+  <img src="1_figures/heatmap_yearday_hour.png" style="width: auto; height: 150px;">
+  <img src="1_figures/holdout_preds_good_week.png" style="width: auto; height: 300px;">
 </div>
 
 <br>
-
 
 [**Link to Full Semester Paper (PDF)**](https://github.com/MathiasSteilen/semesterthesis-load-forecasting-switzerland/blob/main/Thesis.pdf)
 [**Link to Full Semester Paper (HTML - Blog Post on my Website)**](https://mathiassteilen.github.io/posts/20250214-Load-Forecasting/#the-balance-group-managers-perspective)
@@ -17,7 +16,6 @@ This repository contains the contents of my semester project of comparing tradit
 - How does solar electricity generation impact grid load?
 - Introductory theory on SARIMAX, NBEATSx, Deep Neural Networks, LightGBM and Ridge Regression
 - Comparison of all model classes with both traditional loss metrics and balance costs on a one-year holdout set
-
 
 ## In a Nutshell
 
@@ -49,6 +47,8 @@ This repository contains the contents of my semester project of comparing tradit
 
 </div>
 
+<br>
+
 **Ensemble Methods**:
 
 - Simple mean-aggregation ensembles reduced prediction variance and improved performance (BAGGED = average of all models)
@@ -59,12 +59,14 @@ This repository contains the contents of my semester project of comparing tradit
 - Almost all models exhibited slight seasonal biases, potentially exposing BGMs to imbalanced cost vulnerabilities in Switzerland’s two-price balancing system, for example:
     - NBEATSx stood in the costlier direction during working hours and evenings, leading to increased balance costs despite good statistical metrics
 
-<p align="center">
+Average Balance Costs (Left) | Average Predictions vs Average Actuals (Right)
+
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="1_figures/general_balance_cost_by_hour.png" style="width: auto; height: 200px;">
   <img src="1_figures/holdout_preds_averaged_hour.png" style="width: auto; height: 200px;">
 </div>
 
+<br>
 
 **Holidays**:
 
@@ -90,6 +92,7 @@ This repository contains the contents of my semester project of comparing tradit
 | RIDGE   | No         | 7,799.59 | 2.61e+08 | -30.20 |
 | NAIVE   | -          | 11,173.84| 3.73e+08 | 0.00 |
 
+<br>
 
 Cumulative balance costs (Left: Without holidays | Right: With Holidays)
 
@@ -97,6 +100,8 @@ Cumulative balance costs (Left: Without holidays | Right: With Holidays)
   <img src="1_figures/cum_balance_energy_without_holidays.png" style="width: auto; height: 200px;">
   <img src="1_figures/cum_balance_energy_with_holidays.png" style="width: auto; height: 200px;">
 </div>
+
+<br>
 
 **Practical Recommendations**:
 
