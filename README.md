@@ -59,10 +59,12 @@ This repository contains the contents of my semester project of comparing tradit
 - Almost all models exhibited slight seasonal biases, potentially exposing BGMs to imbalanced cost vulnerabilities in Switzerland’s two-price balancing system, for example:
     - NBEATSx stood in the costlier direction during working hours and evenings, leading to increased balance costs despite good statistical metrics
 
+<p align="center">
 <div style="display: flex; justify-content: center; gap: 10px;">
   <img src="1_figures/general_balance_cost_by_hour.png" style="width: auto; height: 200px;">
   <img src="1_figures/holdout_preds_averaged_hour.png" style="width: auto; height: 200px;">
 </div>
+
 
 **Holidays**:
 
@@ -73,8 +75,6 @@ This repository contains the contents of my semester project of comparing tradit
 - Due to the effect of seasonal biases shown above, the order when evaluating with balance costs over the holdout period did not stay the same
 - Excluding holidays (as they should be modelled separately, ideally), SARIMAX performed better than the much more flexible NBEATSx, as it is in general very true to the expected value
 - LightGBM and Deep Neural Networks worked best (excluding holidays)
-
-<div style="display: table; margin: auto;">
 
 | Model   | Retraining | Average | Total | Change over Next (%) |
 |---------|------------|---------|-------|----------------------|
@@ -90,7 +90,6 @@ This repository contains the contents of my semester project of comparing tradit
 | RIDGE   | No         | 7,799.59 | 2.61e+08 | -30.20 |
 | NAIVE   | -          | 11,173.84| 3.73e+08 | 0.00 |
 
-</div>
 
 Cumulative balance costs (Left: Without holidays | Right: With Holidays)
 
