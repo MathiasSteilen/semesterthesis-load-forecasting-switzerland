@@ -1,11 +1,14 @@
 # A Comparative Study of Traditional Statistical Models and Deep Learning for Load Forecasting: SARIMAX vs. NBEATSx in the Swiss Power Grid
 
-<div style="display: flex; justify-content: center; gap: 10px;">
-  <img src="1_figures/heatmap_yearday_hour.png" style="width: auto; height: 150px;">
-  <img src="1_figures/holdout_preds_good_week.png" style="width: auto; height: 300px;">
-</div>
+<p align="left" width="100%">
 
+<img src="1_figures/heatmap_yearday_hour.png" style="width: 600px; height: auto;">
 <br>
+<img src="1_figures/holdout_preds_good_week.png" style="width: 600px; height: auto;">
+<br>
+
+</p>
+
 
 [**Link to Full Semester Paper (PDF)**](https://github.com/MathiasSteilen/semesterthesis-load-forecasting-switzerland/blob/main/Thesis.pdf)
 [**Link to Full Semester Paper (HTML - Blog Post on my Website)**](https://mathiassteilen.github.io/posts/20250214-Load-Forecasting/#the-balance-group-managers-perspective)
