@@ -80,6 +80,8 @@ Average Balance Costs (Left) | Average Predictions vs Average Actuals (Right)
 - Excluding holidays (as they should be modelled separately, ideally), SARIMAX performed better than the much more flexible NBEATSx, as it is in general very true to the expected value
 - LightGBM and Deep Neural Networks worked best (excluding holidays)
 
+<div style="display: table; margin: auto;">
+
 | Model   | Retraining | Average | Total | Change over Next (%) |
 |---------|------------|---------|-------|----------------------|
 | BAGGED  | -          | 5,840.28 | 1.95e+08 | -1.92 |
@@ -93,6 +95,8 @@ Average Balance Costs (Left) | Average Predictions vs Average Actuals (Right)
 | RIDGE   | Yes        | 7,538.36 | 2.52e+08 | -3.35 |
 | RIDGE   | No         | 7,799.59 | 2.61e+08 | -30.20 |
 | NAIVE   | -          | 11,173.84| 3.73e+08 | 0.00 |
+
+</div>
 
 <br>
 
